@@ -4,7 +4,7 @@ import TodoList from './TodoList'
 import TodoFilter from './TodoFilter'
 import * as TodoActions from './TodoActions'
 
-class TodoContainer extends Component {
+export class TodoContainer extends Component {
   render() {
     const { showCompleted, todos } = this.props
     return (
