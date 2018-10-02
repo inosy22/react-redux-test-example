@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoReducerTest  1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  Object {
+    \\"showCompleted\\": false,
+-   \\"todos\\": Array [],
++   \\"todos\\": Array [
++     Object {
++       \\"completed\\": false,
++       \\"id\\": 1,
++       \\"text\\": \\"test\\",
++     },
++   ],
+  }"
+`;
